@@ -6,17 +6,8 @@ using AtomFormat;
 
 namespace AtomFormat
 {
-    //namespace Numbers
-    //{
-    //    public static class Format
-    //    {
-    //        public static string ToBinary(this int StandardFormatInt)
-    //        {
-    //            return Convert.ToString(StandardFormatInt, 2);
-    //        }
-    //    }
-    //}
 
+    
     namespace Time
     {
         public static class TimeMaps
@@ -66,34 +57,18 @@ namespace AtomFormat
                     return HowLongAgo + TimeSpan.FromMinutes(1);
                 }
         }
-    }
-
-    public enum Countries
-    {
-        USA,
-        FRANCE,
-        BRITAIN,
-        JAPAN
-    }
-
-    
+    }    
     namespace Currency
     {
         
         public static class Formatting
         {
-            internal static Dictionary<Countries, string> currencyMap = new Dictionary<Countries, string>()
-            {
-                {Countries.USA, "us-US"},
-                {Countries.FRANCE, "fr-FR"},
-                {Countries.BRITAIN, "br, EN"},
-                {Countries.JAPAN, "ja-JP"}
-            };
+            
 
             public static string ToCurrencyOf<T>(this T CurrencyAmount, Countries Country) where T : new()
             {
                 decimal currency = new decimal();
-                System.Globalization.CultureInfo newCulture = new System.Globalization.CultureInfo(currencyMap[Country]);
+                System.Globalization.CultureInfo newCulture = new System.Globalization.CultureInfo(Mapping.currencyMap[Country]);
 
                 var currencyString = String.Format(newCulture, "{0:C}", CurrencyAmount);
                 return currencyString;         
