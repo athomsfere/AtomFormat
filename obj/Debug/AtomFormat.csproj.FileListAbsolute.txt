@@ -3,8 +3,11 @@ c:\users\athomsfere\documents\visual studio 2012\Projects\AtomFormat\AtomFormat\
 c:\users\athomsfere\documents\visual studio 2012\Projects\AtomFormat\AtomFormat\bin\Debug\AtomFormat.pdb
 c:\users\athomsfere\documents\visual studio 2012\Projects\AtomFormat\AtomFormat\obj\Debug\AtomFormat.dll
 c:\users\athomsfere\documents\visual studio 2012\Projects\AtomFormat\AtomFormat\obj\Debug\AtomFormat.pdb
+<<<<<<< HEAD
 H:\Programs\CSharp\AtomFormat\AtomFormat\bin\Debug\AtomFormat.dll
 H:\Programs\CSharp\AtomFormat\AtomFormat\bin\Debug\AtomFormat.pdb
 H:\Programs\CSharp\AtomFormat\AtomFormat\obj\Debug\AtomFormat.csprojResolveAssemblyReference.cache
 H:\Programs\CSharp\AtomFormat\AtomFormat\obj\Debug\AtomFormat.dll
 H:\Programs\CSharp\AtomFormat\AtomFormat\obj\Debug\AtomFormat.pdb
+=======
+>>>>>>> 29777ad79ca28b85c3d4b1082bc48e041fb83833
